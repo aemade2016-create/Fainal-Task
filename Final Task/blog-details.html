@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Details | Doccure</title>
+<link rel="shortcut icon" href="./images/favicon.webp" type="image/x-icon">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <link rel="stylesheet" href="fonts/css/all.min.css">
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <link rel="stylesheet" href="fonts/bootstrap-icons.min.css">
+      <link rel="stylesheet" href="./OwlCarousel/owl-carousel-min.css" />
+      <link rel="stylesheet" href="./OwlCarousel/owl.theme.default.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+        <div class="container-fluid position-relative">
+          <div class="header-theme header-theme-two border rounded-pill bg-light" style="width: 4%;">
+            <button type="button" id="dark-mode-toggle" class="theme-toggle moon border-0 rounded-circle py-3">
+              <i class="bi bi-moon-fill h3"></i>
+            </button>
+            <button type="button" id="light-mode-toggle" class="theme-toggle sun border-0  rounded-circle py-3">
+              <i class="bi bi-brightness-low-fill h3"></i>
+            </button>
+          </div>
+    <!-- Navbar -->
+    <section class="container-fluid position-sticky z-3 top-0 bg-light">
+      <nav class="container navbar navbar-expand-lg bg-light ">
+        <div class="container p-0">
+          <a class="navbar-brand col-2 ps-2" href="#"><img src="./images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse col-8  px-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown position-static">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Home
+                </a>
+                <div class="dropdown-menu w-100 p-3 home overflow-scroll" style="height: 90vh;">
+                  <div class="row row-cols-1 row-cols-md-5 g-1">
+                    <div class="col p-3">
+                      <div class="card  p-1">
+                        <a href="#"><img src="./images/home.webp" class="card-img-top" alt="General Home 1"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">General Home 1</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href="#"><img src="./images/home-02.webp" class="card-img-top" alt="General Home 2"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">General Home 2</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-03.webp" class="card-img-top" alt="Dental"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Dental</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-04.webp" class="card-img-top" alt="Pediatrics"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Pediatrics</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-05.webp" class="card-img-top" alt="ENT"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">ENT</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-06.webp" class="card-img-top" alt="Veterinary"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Veterinary</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-07.webp" class="card-img-top" alt="Cardiology"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Cardiology</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""> <img src="./images/home-08.webp" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Home Care</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-09.webp" class="card-img-top" alt="Fertility"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Fertility</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-10.webp" class="card-img-top" alt="Cosmetic Surgery"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Cosmetic Surgery</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-11.webp" class="card-img-top" alt="Laboratory"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Laboratory</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-12.webp" class="card-img-top" alt="Pharmacy"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Pharmacy</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-13.webp" class="card-img-top" alt="Eye Care"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Eye Care</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/coming-soon.webp" class="card-img-top" alt="Coming Soon"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Coming Soon</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""> <img src="./images/coming-soon.webp" class="card-img-top" alt="Coming Soon"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Coming Soon</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Doctors
+                </a>
+                <div class=" dropdown-menu doctor text-start" style="width: 40rem ;height: 50vh;">
+                  <div class="row row-cols-md-2 position-absolute d-flex">
+                    <ul class=" p-5">
+                      <li><a href="./dashboard.html">Doctor Dashboard</a></li>
+                      <li><a href="#">Appointments</a></li>
+                      <li><a href="#">Available Timing</a></li>
+                      <li><a href="#">Patients List</a></li>
+                      <li><a href="#">Chat</a></li>
+                      <li><a href="#">Invoices</a></li>
+                      <li><a href="#">Profile Settings</a></li>
+    
+                    </ul>
+                    <div class="doctors-img col-6 h-50 ">
+                      <img class="" src="./images/menu-img-1.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+    
+              </li>
+    
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Patients
+                </a>
+                <div class=" dropdown-menu patient text-start" style="width: 45rem ;height: 50vh;">
+                  <div class="row row-cols-md-3 position-absolute d-flex">
+                    <ul class=" p-5 col-lg-4 before">
+                      <li><a href="#">Patient Dashboard</a></li>
+                      <li><a href="#">Doctors Grid</a></li>
+                      <li><a href="#">Doctors List</a></li>
+                      <li><a href="#">Doctors Availability</a></li>
+                      <li><a href="#">Booking</a></li>
+                      <li><a href="#">Booking 1</a></li>
+                      <li><a href="#">Booking 2</a></li>
+    
+                    </ul>
+                    <ul class=" p-5 col-lg-4">
+                      <li><a href="#">Search Doctor 1</a></li>
+                      <li><a href="#">Search Doctor 2</a></li>
+                      <li><a href="#">Doctor Profile 1</a></li>
+                      <li><a href="#">Doctor Profile 2</a></li>
+                      <li><a href="#">Checkout</a></li>
+                      <li><a href="#">Favourites</a></li>
+                      <li><a href="#">Chat</a></li>
+    
+                    </ul>
+    
+                    <div class="doctors-img col-lg-4 h-50 my-3">
+                      <img class="" src="./images/menu-img-2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+    
+              </li>
+              <li class="nav-item dropdown d-sm-block">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pharmacy
+                </a>
+                <div class=" dropdown-menu pharmacy text-start" style="width: 40rem ;height: 50vh;">
+                  <div class="row row-cols-md-3 position-absolute d-flex">
+                    <ul class=" p-5 col-lg-6">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="./details.html">Pharmacy Details</a></li>
+                      <li><a href="#">Pharmacy Search</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product Description</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product Checkout</a></li>
+    
+                    </ul>
+    
+                    <div class="doctors-img col-lg-6 h-50 my-3">
+                      <img class="" src="./images/menu-img-3.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+    
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <div class=" dropdown-menu pages text-start  " style="width: 45rem ;height: 70vh; left: -100%;">
+                  <div class="row row-cols-md-4 position-absolute d-flex">
+                    <ul class=" p-5 col-lg-3 before">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="./contact us.html">Contact Us</a></li>
+                      <li><a href="#">Hospitals</a></li>
+                      <li><a href="#">Speciality</a></li>
+                      <li><a href="#">Clinic</a></li>
+                      <li><a href="#">Starter Page</a></li>
+                      <li><a href="#">Pricing Plan</a></li>
+    
+                    </ul>
+    
+                    <ul class=" p-5 col-lg-3 before">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product</a></li>
+    
+                    </ul>
+                    <ul class=" p-5 col-lg-3 before">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product</a></li>
+    
+                    </ul>
+                    <ul class=" p-5 col-lg-3">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product</a></li>
+    
+                    </ul>
+                  </div>
+                </div>
+    
+              </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu text-start blog w-100">
+                  <li><a class="dropdown-item" href="#">Blog List</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                  <li><a class="dropdown-item" href="./blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Admin
+                </a>
+                <ul class="dropdown-menu text-start admin w-100">
+                  <li><a class="dropdown-item" href="#">Admin</a></li>
+                  <li><a class="dropdown-item" href="#">Pharmacy Admin</a></li>
+                </ul>
+              </li>
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+        <div class="col-lg-2 text-center d-sm-none d-md-none d-lg-block">
+          <button class="btn-menu border-0  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <i class="bi bi-x-diamond-fill rounded-circle"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="offcanvas offcanvas-end" tabindex="3" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title p-3" id="offcanvasRightLabel"><img src="./images/logo.png" alt=""></h5>
+          <button type="button" class="btn-close border border-2 rounded-circle my-3" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body m-3">
+          <div>
+            <h4>About Doccure</h4>
+            <p>Modern healthcare platform designed to simplify the way patients connect with doctors, clinics &
+              medical services.</p>
+          </div>
+          <div class="menu-img row-cols-3 ">
+            <img class="w-25 m-2 rounded-3" src="./images/menu-1.jpg" alt="">
+            <img class="w-25 m-2 rounded-3" src="./images/menu-2.jpg" alt="">
+            <img class="w-25 m-2 rounded-3" src="./images/menu-3.jpg" alt="">
+    
+          </div>
+          <div class="our locations mt-4 border rounded-3 px-3">
+            <h4>Our Locations</h4>
+            <h5>California</h5>
+            <p>1250 Sunset, Los Angeles, CA</p>
+            <h5>Los Angeles</h5>
+            <p>669 Boulevard, Los Angeles</p>
+          </div>
+          <div class="contact information border rounded-3 my-2 p-3">
+            <h4>Contact Information</h4>
+            <div class="row py-1">
+              <i class="bi bi-chat-right-text-fill h6  text-light col-2 border rounded-circle  bg-primary align-middle p-3"
+                style="height:auto;"></i>
+              <div class="col-10">
+                <p class="m-0">General Inquiries</p>
+                <h5 class="h6"><a href="#">info@example.com</a></h5>
+              </div>
+            </div>
+            <div class="row ">
+              <i class="bi bi-telephone-fill h6 text-light col-2 border rounded-circle  bg-primary align-middle p-3"
+                style="height:auto;"></i>
+              <div class="col-10">
+                <p class="m-0">Emergency Cases</p>
+                <h5 class="h6"><a href="#">+1 24565 89856</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="socil w-75 my-2 px-3">
+            <h4 class="my-4">Follow Us</h4>
+            <a href="#" class="text-black"> <i class="bi bi-facebook rounded-circle text-body-secondary"></i></a>
+            <a href="#" class="text-black"><i class="bi bi-twitter-x rounded-circle text-body-secondary"></i></a>
+            <a href="#" class="text-black"><i class="bi bi-instagram rounded-circle text-body-secondary"></i></a>
+            <a href="#" class="text-black"><i class="bi bi-linkedin rounded-circle text-body-secondary"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="overflow-hidden">
+      <!-- Hero Section -->
+      <section
+        class="position-relative bg-light text-center py-5 overflow-hidden"
+      >
+        <div class="container position-relative">
+          <!-- Breadcrumb -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-3 small">
+              <li class="breadcrumb-item">
+                <a href="index.html" class="text-decoration-none">
+                  <i class="bi bi-houses-fill text-primary"></i>
+                </a>
+              </li>
+              <li class="breadcrumb-item">
+                <i class="fa-solid fa-angle-right"></i>
+              </li>
+              <li class="breadcrumb-item">Blog Details</li>
+            </ol>
+          </nav>
+
+          <!-- Title -->
+          <h2 class="fw-bold mb-0">Blog Details</h2>
+        </div>
+
+        <!-- top-left shape -->
+        <img
+          src="./images/breadcrumb-bg-01.png"
+          class="position-absolute top-0 start-0"
+        />
+
+        <!-- bottom-right shape -->
+        <img
+          src="./images/breadcrumb-bg-02.png"
+          class="position-absolute bottom-0 end-0"
+        />
+
+        <!-- floating icon 1 -->
+        <img
+          src="./images/breadcrumb-icon.png"
+          class="position-absolute top-50 start-0 translate-middle-y"
+        />
+
+        <!-- floating icon 2 -->
+        <img
+          src="./images/breadcrumb-icon.png"
+          class="position-absolute bottom-0 start-50 translate-middle-x"
+        />
+      </section>
+      <!-- end Breadcrumb Section  -->
+      <section class="container">
+        <div class="row">
+          <!-- Main Content Column -->
+          <div class="col-lg-8">
+            <article class="blog-details">
+              <div class="blog-header mb-4 text-center">
+                <h1 class="blog-title fs-3">
+                  10 Tips for Maintaining a Healthy Lifestyle Year-Round
+                </h1>
+              </div>
+              <div class="border rounded-3 p-3">
+                <div class="blog-image mb-4 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-list-01.jpg"
+                    alt="Healthy Lifestyle"
+                    class="img-fluid rounded-3 w-100"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-start align-items-center pb-3 pt-0"
+                >
+                  <div class="blog-meta d-flex align-items-center mt-3 w-75">
+                    <span
+                      class="blog-category bg-dark text-white px-3 me-2 rounded-3"
+                      >Health Tips</span
+                    >
+                    <span class="blog-date me-3 ps-5"
+                      ><i class="bi bi-calendar me-1"></i> 4 Dec 2023</span
+                    >
+                    <span class="blog-author"
+                      ><img
+                        src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-thumb-02.jpg"
+                        alt=""
+                        style="width: 30px; height: 30px"
+                        class="rounded-circle me-1"
+                      /><span class="hover-m"> Dr. Darren Elder</span></span
+                    >
+                  </div>
+                  <div class="blog-stats ms-4 d-flex justify-content-end w-25">
+                    <span
+                      class="d-flex align-items-center me-3 p-1 border border-dark rounded-5 pe-3 text-center"
+                      ><i class="bi bi-chat me-1"></i> 25</span
+                    >
+                    <span
+                      class="d-flex align-items-center p-1 border border-primary rounded-5 text-primary text-center"
+                      ><i class="bi bi-eye me-1 text-primary"></i> 90</span
+                    >
+                  </div>
+                </div>
+                <div class="blog-content mb-4">
+                  <p>
+                    Maintaining a healthy lifestyle year-round is achievable
+                    with consistent habits that support your physical and mental
+                    well-being. One of the key pillars is staying hydrated, as
+                    water is essential for digestion, nutrient absorption, and
+                    overall bodily functions. Aim to drink at least eight
+                    glasses of water daily, adjusting for factors like weather
+                    and physical activity. A balanced diet is equally important,
+                    as it fuels your body with the nutrients it needs for
+                    energy, growth, and repair. Incorporate a variety of fruits,
+                    vegetables, lean proteins, and whole grains to ensure you're
+                    getting a range of vitamins and minerals.
+                  </p>
+
+                  <p>
+                    Regular physical activity is another cornerstone of a
+                    healthy lifestyle. Engaging in at least 150 minutes of
+                    moderate exercise per week, such as walking or cycling, can
+                    boost your cardiovascular health, strengthen muscles, and
+                    improve mood. Equally important is prioritizing sleep.
+                    Getting 7-9 hours of quality sleep each night helps regulate
+                    your mood, enhances mental clarity, and supports physical
+                    health. With these tips in mind, you'll be on your way to
+                    maintaining a healthy lifestyle all year long.
+                  </p>
+
+                  <blockquote
+                    class="blockquote border-start border-primary ps-3 py-2 ms-4 mt-4"
+                  >
+                    <p>
+                      An extra important note to remember is that consistency is
+                      key. Small, sustainable changes in your daily habits will
+                      have a more lasting impact than short-term, extreme
+                      efforts. Prioritize gradual improvements in your routine
+                      and be patient with yourself - lasting health is a
+                      marathon, not a sprint.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+              <!-- About Author Section -->
+              <div
+                class="about-author d-flex align-items-center border rounded-3 p-4 mt-5"
+              >
+                <div class="author-img me-4 flex-shrink-0">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-thumb-02.jpg"
+                    alt="Dr. Darren Elder"
+                    class="rounded-circle"
+                    style="width: 100px; height: 100px; object-fit: cover"
+                  />
+                </div>
+                <div class="author-content">
+                  <h5 class="mb-2">About Author</h5>
+                  <p class="text-muted mb-0">
+                    As a certified nutritionist and wellness coach, I'm
+                    passionate about helping others achieve a balanced lifestyle
+                    and lasting health. My journey into health started with my
+                    own desire to feel better physically and mentally, and along
+                    the way, I've learned the importance of consistency and
+                    small, sustainable changes.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tags Section -->
+              <div class="blog-tags">
+                <h5>Tags</h5>
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Health Tips</span
+                  >
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Awareness</span
+                  >
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Health</span
+                  >
+                  <span class="badge bg-dark" style="font-size: 15px"
+                    >Wellness</span
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Sidebar Column -->
+          <div class="col-lg-4">
+            <!-- Search Box -->
+            <div class="sidebar-widget mb-4 border p-3 rounded-3">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search..."
+                />
+                <button class="btn btn-primary" type="button">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Categories Section -->
+            <div class="sidebar-widget mb-4 border p-3 rounded-3">
+              <h5 class="widget-title">Categories</h5>
+              <ul class="list-group list-group-flush">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Health Care
+                  <span class="badge text-dark rounded-pill">(2)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Nutritions
+                  <span class="badge text-dark rounded-pill">(4)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Health Tips
+                  <span class="badge text-dark rounded-pill">(5)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Medical Research
+                  <span class="badge text-dark rounded-pill">(4)</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center border-0"
+                >
+                  Health Treatment
+                  <span class="badge text-dark rounded-pill">(6)</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Latest News Section -->
+            <div class="sidebar-widget mb-4 border p-3 rounded-3">
+              <h5 class="widget-title fs-3">Latest News</h5>
+              <div class="latest-news-list pt-3 overflow-hidden">
+                <div class="news-item d-flex mb-3 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-11.jpg"
+                    alt="News"
+                    class="rounded-2 me-3"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">06 Nov 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Managing Chronic Conditions: Expert Advice for Better
+                      Living
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="news-item d-flex mb-3 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-12.jpg"
+                    alt="News"
+                    class="rounded-2 me-3 hover-img"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">15 Nov 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Understanding Common Symptoms: When to See a Doctor
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="news-item d-flex mb-3 hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-13.jpg"
+                    alt="News"
+                    class="rounded-2 me-3"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">08 Dec 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Nutrition and Wellness: A Guide to Balanced Eating
+                    </h6>
+                  </div>
+                </div>
+
+                <div class="news-item d-flex hover-img overflow-hidden">
+                  <img
+                    src="https://doccure.dreamstechnologies.com/html/template/assets/img/blog/blog-thumb-14.jpg"
+                    alt="News"
+                    class="rounded-2 me-3"
+                    style="width: 90px; height: 80px; object-fit: cover"
+                  />
+                  <div>
+                    <p class="mb-0 small text-muted">17 Dec 2024</p>
+                    <h6 class="fs-6 mb-0 hover-m">
+                      Top Preventive Health Measures Everyone Should Take
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tags Section in Sidebar -->
+            <div class="sidebar-widget border p-3 rounded-3">
+              <h5 class="widget-title">Tags</h5>
+              <div class="d-flex flex-wrap gap-2 mt-2">
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Health Tips</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Awareness</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Health</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Wellness</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Treatments</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Checkup</span
+                >
+                <span class="badge bg-light text-dark fs-6 hober-w"
+                  >Prevention</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer bg-light mt-5 text-primary">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-2 col-md-6 footer-section ">
+        <h5>Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="./contact us.html">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 footer-section">
+        <h5>Support</h5>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 footer-section">
+        <h5>Support</h5>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 footer-section">
+        <h5>Support</h5>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 footer-section">
+        <h5>Newsletter</h5>
+        <p class="footer-about">Subscribe to our newsletter for updates, news, and exclusive offers.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="footer-newsletter">
+          <input type="email" placeholder="Enter your email">
+          <button class="newsletter-btn rounded-pill w-25">
+            <i class="fas fa-paper-plane"></i>
+            Send
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom d-flex align-middle">
+      <ul class="footer-bottom-links col-lg-4">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+      </ul>
+      <p class="col-lg-4 p-3">© 2024 CompanyName. All rights reserved.</p>
+      <div class="payment d-flex col-lg-4 text-end">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_22_card-01.svg" alt="">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_23_card-02.svg" alt="">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_26_card-05.svg" alt="">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_27_card-06.svg" alt="">
+      </div>
+    </div>
+  </div>
+</footer>
+        </div>
+    <script src="fonts/js/all.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./OwlCarousel/jquery.js"></script>
+    <script src="./OwlCarousel/owl-carousel.js"></script>
+    <script src="./OwlCarousel/owl-carosel-min.js"></script>
+    <script src="./JS/script.js"></script>
+    <style>
+      .hover-m:hover {
+        color: var(--primary) !important;
+        cursor: pointer;
+      }
+      .hover-img img {
+        transition: transform 0.3s ease;
+      }
+      .hover-img:hover img {
+        transform: scale(1.05);
+      }
+      .bg-img {
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+          url("assets/img/bg/breadcrumb-bg.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 60px 0;
+      }
+      .breadcrumb-item + .breadcrumb-item::before {
+        content: var(--bs-breadcrumb-divider);
+      }
+    </style>
+  </body>
+</html>

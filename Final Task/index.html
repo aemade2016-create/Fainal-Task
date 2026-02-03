@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Task</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="./images/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./OwlCarousel/owl-carousel-min.css" />
+    <link rel="stylesheet" href="./OwlCarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid position-relative">
+        <div class="header-theme header-theme-two border rounded-pill bg-light" style="width: 4%;">
+            <button type="button" id="dark-mode-toggle" class="theme-toggle moon border-0 rounded-circle py-3">
+                <i class="bi bi-moon-fill h3"></i>
+            </button>
+            <button type="button" id="light-mode-toggle" class="theme-toggle sun border-0  rounded-circle py-3">
+                <i class="bi bi-brightness-low-fill h3"></i>
+            </button>
+        </div>
+
+        <header class="container-fluid text-body-secondary border-bottom d-sm-none d-lg-block d-md-none">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="w-50 ">
+                    <span class="info text-body-secondary"><i class="bi bi-envelope-at"></i> info@example.com</span>
+                    <span class="info text-body-secondary"><i class="bi bi-telephone"></i> +1 55587623</span>
+                </div>
+                <div class="w-25 d-flex py-1">
+                    <div class="dropdown  bg-light w-25 text-start">
+                        <button class="btn btn-secondary dropdown-toggle bg-light text-black  " type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> <img src="./images/us.png" alt="">
+                            ENG
+                        </button>
+                        <ul class="dropdown-menu text-start dropdown-menu-dark bg-light text-black">
+                            <li><a class="dropdown-item active text-black" href="#"><img src="./images/us.png" alt="">
+                                    ENG</a></li>
+                            <li><a class="dropdown-item text-black " href="#"><img src="./images/arab.png" alt="">
+                                    ARA</a></li>
+                            <li><a class="dropdown-item text-black" href="#"><img src="./images/france.png" alt="">
+                                    FRA</a></li>
+                        </ul>
+                    </div>
+                    <div class="socil w-75 my-2 px-3">
+                        <a href="#" class="text-black"> <i
+                                class="bi bi-facebook rounded-circle text-body-secondary"></i></a>
+                        <a href="#" class="text-black"><i
+                                class="bi bi-twitter-x rounded-circle text-body-secondary"></i></a>
+                        <a href="#" class="text-black"><i
+                                class="bi bi-instagram rounded-circle text-body-secondary"></i></a>
+                        <a href="#" class="text-black"><i
+                                class="bi bi-linkedin rounded-circle text-body-secondary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="container-fluid position-sticky z-3 top-0 bg-light">
+            <nav class="container navbar navbar-expand-lg bg-light ">
+                <div class="container p-0">
+                    <a class="navbar-brand col-2 ps-2" href="#"><img src="./images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse col-8  px-4" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown position-static">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu w-100 p-3 home overflow-scroll" style="height: 90vh;">
+                                    <div class="row row-cols-1 row-cols-md-5 g-1">
+                                        <div class="col p-3">
+                                            <div class="card  p-1">
+                                                <a href="#"><img src="./images/home.webp" class="card-img-top"
+                                                        alt="General Home 1"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">General Home 1</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href="#"><img src="./images/home-02.webp" class="card-img-top"
+                                                        alt="General Home 2"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">General Home 2</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-03.webp" class="card-img-top"
+                                                        alt="Dental"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Dental</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-04.webp" class="card-img-top"
+                                                        alt="Pediatrics"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Pediatrics</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-05.webp" class="card-img-top"
+                                                        alt="ENT"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">ENT</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-06.webp" class="card-img-top"
+                                                        alt="Veterinary"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Veterinary</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-07.webp" class="card-img-top"
+                                                        alt="Cardiology"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Cardiology</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""> <img src="./images/home-08.webp" class="card-img-top"
+                                                        alt="..."></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Home Care</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-09.webp" class="card-img-top"
+                                                        alt="Fertility"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Fertility</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-10.webp" class="card-img-top"
+                                                        alt="Cosmetic Surgery"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Cosmetic Surgery</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-11.webp" class="card-img-top"
+                                                        alt="Laboratory"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Laboratory</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-12.webp" class="card-img-top"
+                                                        alt="Pharmacy"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Pharmacy</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/home-13.webp" class="card-img-top"
+                                                        alt="Eye Care"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Eye Care</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""><img src="./images/coming-soon.webp" class="card-img-top"
+                                                        alt="Coming Soon"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Coming Soon</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col p-3">
+                                            <div class="card p-1">
+                                                <a href=""> <img src="./images/coming-soon.webp" class="card-img-top"
+                                                        alt="Coming Soon"></a>
+                                                <div class="card-body">
+                                                    <a href="">
+                                                        <h5 class="card-title h6">Coming Soon</h5>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Doctors
+                                </a>
+                                <div class=" dropdown-menu doctor text-start" style="width: 40rem ;height: 50vh;">
+                                    <div class="row row-cols-md-2 position-absolute d-flex">
+                                        <ul class=" p-5">
+                                            <li><a href="./dashboard.html">Doctor Dashboard</a></li>
+                                            <li><a href="#">Appointments</a></li>
+                                            <li><a href="#">Available Timing</a></li>
+                                            <li><a href="#">Patients List</a></li>
+                                            <li><a href="#">Chat</a></li>
+                                            <li><a href="#">Invoices</a></li>
+                                            <li><a href="#">Profile Settings</a></li>
+
+                                        </ul>
+                                        <div class="doctors-img col-6 h-50 ">
+                                            <img class="" src="./images/menu-img-1.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Patients
+                                </a>
+                                <div class=" dropdown-menu patient text-start" style="width: 45rem ;height: 50vh;">
+                                    <div class="row row-cols-md-3 position-absolute d-flex">
+                                        <ul class=" p-5 col-lg-4 before">
+                                            <li><a href="#">Patient Dashboard</a></li>
+                                            <li><a href="#">Doctors Grid</a></li>
+                                            <li><a href="#">Doctors List</a></li>
+                                            <li><a href="#">Doctors Availability</a></li>
+                                            <li><a href="#">Booking</a></li>
+                                            <li><a href="#">Booking 1</a></li>
+                                            <li><a href="#">Booking 2</a></li>
+
+                                        </ul>
+                                        <ul class=" p-5 col-lg-4">
+                                            <li><a href="#">Search Doctor 1</a></li>
+                                            <li><a href="#">Search Doctor 2</a></li>
+                                            <li><a href="#">Doctor Profile 1</a></li>
+                                            <li><a href="#">Doctor Profile 2</a></li>
+                                            <li><a href="#">Checkout</a></li>
+                                            <li><a href="#">Favourites</a></li>
+                                            <li><a href="#">Chat</a></li>
+
+                                        </ul>
+
+                                        <div class="doctors-img col-lg-4 h-50 my-3">
+                                            <img class="" src="./images/menu-img-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown d-sm-block">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pharmacy
+                                </a>
+                                <div class=" dropdown-menu pharmacy text-start" style="width: 40rem ;height: 50vh;">
+                                    <div class="row row-cols-md-3 position-absolute d-flex">
+                                        <ul class=" p-5 col-lg-6">
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="./details.html">Pharmacy Details</a></li>
+                                            <li><a href="#">Pharmacy Search</a></li>
+                                            <li><a href="#">Product</a></li>
+                                            <li><a href="#">Product Description</a></li>
+                                            <li><a href="#">Cart</a></li>
+                                            <li><a href="#">Product Checkout</a></li>
+
+                                        </ul>
+
+                                        <div class="doctors-img col-lg-6 h-50 my-3">
+                                            <img class="" src="./images/menu-img-3.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class=" dropdown-menu pages text-start  "
+                                    style="width: 45rem ;height: 70vh; left: -100%;">
+                                    <div class="row row-cols-md-4 position-absolute d-flex">
+                                        <ul class=" p-5 col-lg-3 before">
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="./contact us.html">Contact Us</a></li>
+                                            <li><a href="#">Hospitals</a></li>
+                                            <li><a href="#">Speciality</a></li>
+                                            <li><a href="#">Clinic</a></li>
+                                            <li><a href="#">Starter Page</a></li>
+                                            <li><a href="#">Pricing Plan</a></li>
+
+                                        </ul>
+
+                                        <ul class=" p-5 col-lg-3 before">
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Product</a></li>
+                                            <li><a href="#">Product</a></li>
+                                            <li><a href="#">Cart</a></li>
+                                            <li><a href="#">Product</a></li>
+
+                                        </ul>
+                                        <ul class=" p-5 col-lg-3 before">
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Product</a></li>
+                                            <li><a href="#">Product</a></li>
+                                            <li><a href="#">Cart</a></li>
+                                            <li><a href="#">Product</a></li>
+
+                                        </ul>
+                                        <ul class=" p-5 col-lg-3">
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Pharmacy</a></li>
+                                            <li><a href="#">Product</a></li>
+                                            <li><a href="#">Product</a></li>
+                                            <li><a href="#">Cart</a></li>
+                                            <li><a href="#">Product</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu text-start blog w-100">
+                                    <li><a class="dropdown-item" href="#">Blog List</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                                    <li><a class="dropdown-item" href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Admin
+                                </a>
+                                <ul class="dropdown-menu text-start admin w-100">
+                                    <li><a class="dropdown-item" href="#">Admin</a></li>
+                                    <li><a class="dropdown-item" href="#">Pharmacy Admin</a></li>
+                                </ul>
+                            </li>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+                <div class="col-lg-2 text-center d-sm-none d-md-none d-lg-block">
+                    <button class="btn-menu border-0  " type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-x-diamond-fill rounded-circle"></i>
+                    </button>
+                </div>
+            </nav>
+            <div class="offcanvas offcanvas-end" tabindex="3" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title p-3" id="offcanvasRightLabel"><img src="./images/logo.png" alt=""></h5>
+                    <button type="button" class="btn-close border border-2 rounded-circle my-3"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body m-3">
+                    <div>
+                        <h4>About Doccure</h4>
+                        <p>Modern healthcare platform designed to simplify the way patients connect with doctors,
+                            clinics &
+                            medical services.</p>
+                    </div>
+                    <div class="menu-img row-cols-3 ">
+                        <img class="w-25 m-2 rounded-3" src="./images/menu-1.jpg" alt="">
+                        <img class="w-25 m-2 rounded-3" src="./images/menu-2.jpg" alt="">
+                        <img class="w-25 m-2 rounded-3" src="./images/menu-3.jpg" alt="">
+
+                    </div>
+                    <div class="our locations mt-4 border rounded-3 px-3">
+                        <h4>Our Locations</h4>
+                        <h5>California</h5>
+                        <p>1250 Sunset, Los Angeles, CA</p>
+                        <h5>Los Angeles</h5>
+                        <p>669 Boulevard, Los Angeles</p>
+                    </div>
+                    <div class="contact information border rounded-3 my-2 p-3">
+                        <h4>Contact Information</h4>
+                        <div class="row py-1">
+                            <i class="bi bi-chat-right-text-fill h6  text-light col-2 border rounded-circle  bg-primary align-middle p-3"
+                                style="height:auto;"></i>
+                            <div class="col-10">
+                                <p class="m-0">General Inquiries</p>
+                                <h5 class="h6"><a href="#">info@example.com</a></h5>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <i class="bi bi-telephone-fill h6 text-light col-2 border rounded-circle  bg-primary align-middle p-3"
+                                style="height:auto;"></i>
+                            <div class="col-10">
+                                <p class="m-0">Emergency Cases</p>
+                                <h5 class="h6"><a href="#">+1 24565 89856</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socil w-75 my-2 px-3">
+                        <h4 class="my-4">Follow Us</h4>
+                        <a href="#" class="text-black"> <i
+                                class="bi bi-facebook rounded-circle text-body-secondary"></i></a>
+                        <a href="#" class="text-black"><i
+                                class="bi bi-twitter-x rounded-circle text-body-secondary"></i></a>
+                        <a href="#" class="text-black"><i
+                                class="bi bi-instagram rounded-circle text-body-secondary"></i></a>
+                        <a href="#" class="text-black"><i
+                                class="bi bi-linkedin rounded-circle text-body-secondary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid banner  position-relative" style="height: 40rem;">
+            <div class="container position-relative d-flex">
+                <div class="col-lg-7 col-sm-12 col-md-12 wow animate__animated animate__slideInUp">
+                    <div class="avatar position-relative row  bg-light m-5 col-lg-7 rounded-pill col-sm-12 col-md-12 d-lg-flex"
+                        style="height: 5rem;">
+                        <div class="col-4">
+                            <span class="avatar-img"><img class="position-absolute my-3 rounded-circle border-light"
+                                    style="width: 40px;left: 1rem;" src="./images/avatar 1.jpg" alt=""></span>
+                            <span class="avatar-img"><img class="position-absolute  my-3 rounded-circle"
+                                    style="width: 40px;left: 2rem;" src="./images/avatar 2.jpg" alt=""></span>
+                            <span class="avatar-img"><img class="position-absolute  my-3 rounded-circle"
+                                    style="width: 40px; left: 3rem; " src="./images/avatar 3.jpg" alt=""></span>
+                        </div>
+                        <div class="col-8 my-3">
+                            <p class="m-0 fw-bold">5K+ Appointments</p>
+                            <div>
+                                <span><i class="bi bi-star-fill text-warning"></i></span>
+                                <span><i class="bi bi-star-fill text-warning"></i></span>
+                                <span><i class="bi bi-star-fill text-warning"></i></span>
+                                <span><i class="bi bi-star-fill text-warning"></i></span>
+                                <span><i class="bi bi-star-fill text-warning"></i></span>
+                                <span class="">5.0 Ratings</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="col-11">Discover Health: Find Your Trusted img <span><img
+                                src="./images/imgi_25_video.png" alt=""></span>Doctors Today
+                    </h1>
+                    <div class="row justify-content-center">
+                        <div class="col-11">
+                            <form>
+                                <div class="input-group mb-3 col-12 bg-light rounded-pill">
+                                    <select class="form-select rounded-start-pill" style="max-width: 150px;">
+                                        <option selected>Select Speciality</option>
+                                        <option value="1">Cardiology</option>
+                                        <option value="2">Neurology</option>
+                                        <option value="3">Orthopedics</option>
+                                    </select>
+                                    <i class="bi bi-search my-3 mx-2 text-secondary"></i>
+                                    <input type="text" class="form-control border-0"
+                                        placeholder="Search for Medical Procedures, hospitals" />
+                                    <button class="btn btn-primary m-2 rounded-pill" type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-sm-none d-md-none d-lg-block">
+                    <div class="banner-img wow animate__animated animate__zoomIn">
+                        <img class="w-100 position-relative " src="./images/banner-doctor.svg" alt="">
+                        <button class="btn-tel neon-pulse position-absolute rounded-pill">
+                            <span class="text-dark me-2 rounded-circle p-3"><a href=""><i
+                                        class="bi bi-camera-video-fill"></i></a></span>
+                            <span class="text-dark me-2 rounded-circle p-3 bg-danger"><a href=""><i
+                                        class="bi bi-telephone-inbound-fill"></i></a></span>
+                            <span class="text-dark me-2 rounded-circle p-3"><a href=""><i
+                                        class="bi bi-mic-fill"></i></a></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex text-center justify-content-between bg-light rounded-3 position-absolute bottom-0 wow animate__animated animate__slideInUp"
+                style="left: 10%; height: 20vh;">
+                <div class=" items  bg-light row-cols-7">
+                    <img class="border rounded-circle p-3 bg-danger-subtle bg-opacity-50 text-black m-3"
+                        src="./images/icon-1.png" alt="">
+                    <p class="m-0"><a href="#">BookAppointment</a></p>
+                </div>
+                <div class=" items bg-light row-cols-7">
+                    <img class="border rounded-circle p-3 bg-danger m-3" src="./images/icon-2.png" alt="">
+                    <p class="m-0"><a href="#">TalktoDoctors</a></p>
+                </div>
+                <div class=" items  bg-light  row-cols-7">
+                    <img class="border rounded-circle p-3 bg-success-subtle bg-opacity-50 m-3" src="./images/icon-3.png"
+                        alt="">
+                    <p class="m-0"><a href="#">Hospitals&Clinics</a></p>
+                </div>
+                <div class="items bg-light  row-cols-7">
+                    <img class="border rounded-circle p-3 bg-primary bg-opacity-50 m-3" src="./images/icon-4.png"
+                        alt="">
+                    <p class="m-0"><a href="#">Healthcare</p>
+                    </a>
+                </div>
+                <div class="items bg-light row-cols-7">
+                    <img class="border rounded-circle p-3 bg-danger bg-opacity-50 m-3" src="./images/icon-5.png" alt="">
+                    <p class="m-0"><a href="#">Medicine&Supplies</a></p>
+                </div>
+                <div class="items bg-light  row-cols-7">
+                    <img class="border rounded-circle p-3 bg-black bg-opacity-50 m-3" src="./images/icon-6.png" alt="">
+                    <p class="m-0"><a href="#">LabTesting</p>
+                    </a>
+                </div>
+                <div class="items bg-light  row-cols-7">
+                    <img class="border rounded-circle p-3 bg-info bg-opacity-50 m-3" src="./images/icon-7.png" alt="">
+                    <p class="m-0"><a href="#">HomeCare</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="container wow animate__animated animate__slideInUp">
+            <h5 class="title bg-primary text-light p-2 rounded-pill mt-5">Top Specialties</h5>
+            <h5 class="h1 text-center">Highlightingthe <span class="text-primary">Care&Support</span></h5>
+            <div class="owl-carousel  m-5">
+                <div class="item text-center">
+                    <div class="item-img">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-1.jpeg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-1.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Psychiatry</h4>
+                    <p>112 Doctors</p>
+                </div>
+                <div class="item text-center">
+                    <div class="item-img">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-2.jpeg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-2.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Endocrinology</h4>
+                    <p>112 Doctors</p>
+                </div>
+                <div class="item text-center">
+                    <div class="item-img">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-3.jpeg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-3.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Neurology</h4>
+                    <p>112 Doctors</p>
+                </div>
+                <div class="item text-center">
+                    <div class="item-img">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-4.jpg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-4.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Pediatrics</h4>
+                    <p>112 Doctors</p>
+                </div>
+                <div class="item text-center">
+                    <div class="item-img">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-5.jpeg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-5.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Orthopedics</h4>
+                    <p>112 Doctors</p>
+                </div>
+                <div class="item text-center">
+                    <div class="item-img">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-6.jpeg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-6.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Cardiology</h4>
+                    <p>112 Doctors</p>
+                </div>
+                <div class="item text-center">
+                    <div class="item-img">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-7.jpeg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-7.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Urology</h4>
+                    <p>112 Doctors</p>
+                </div>
+                <div class="item text-center">
+                    <div class="item-img ">
+                        <img class="position-relative object-fit-cover border rounded" style="height: 200px;"
+                            src="./OwlCarousel/images/item-8.jpeg" alt="">
+                        <div class="item-icon position-absolute border rounded-circle bg-light p-3">
+                            <img src="./OwlCarousel/images/icon-8.png" alt="">
+                        </div>
+                    </div>
+                    <h4>Pulmonology</h4>
+                    <p>112 Doctors</p>
+                </div>
+            </div>
+        </section>
+        <section class="container wow animate__animated animate__slideInUp">
+            <h5 class="title bg-primary text-light p-2 rounded-pill mt-5">Featured Doctors</h5>
+            <h5 class="h1 text-center">Our<span class="text-primary">Highlighted</span>Doctor</h5>
+            <div class="owl-carousel mt-5">
+                <div class="doctors">
+                    <div class="doctor-card shadow-sm bg-white rounded-4 overflow-hidden">
+                        <div class="doctor-img-wrap position-relative">
+                            <img src="./OwlCarousel/images/doctor-1.jpg" class="img-fluid doctor-img" alt="Doctor">
+                            <div
+                                class="card-badges position-absolute top-0 start-0 w-100 p-3 d-flex justify-content-between align-items-center">
+                                <span class="badge bg-danger bg-opacity-75"><i class="bi bi-star-fill"></i>
+                                    4.6</span>
+                                <button class="btn btn-light btn-sm rounded-circle shadow-sm"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="doctor-content p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="text-danger small fw-bold">Pediatrician</span>
+                                <span class="text-success small"><i class="bi bi-circle-fill me-1"
+                                        style="font-size: 8px;"></i>
+                                    Available</span>
+                            </div>
+                            <h4 class="h5 fw-bold mb-1">Dr. Nicholas Tello</h4>
+                            <p class="text-muted small mb-3"><i class="bi bi-geo-alt me-1"></i> Ogden, IA • 60
+                                Min</p>
+                            <hr class="text-muted opacity-25">
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-muted d-block small">Consultation Fees</span>
+                                    <span class="h5 fw-bold text-primary mb-0">$350</span>
+                                </div>
+                                <button
+                                    class="btn btn-dark rounded-circle p-2 d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="bi bi-calendar-check"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors">
+                    <div class="doctor-card shadow-sm bg-white rounded-4 overflow-hidden">
+                        <div class="doctor-img-wrap position-relative">
+                            <img src="./OwlCarousel/images/doctor-2.jpg" class="img-fluid doctor-img" alt="Doctor">
+                            <div
+                                class="card-badges position-absolute top-0 start-0 w-100 p-3 d-flex justify-content-between align-items-center">
+                                <span class="badge bg-danger bg-opacity-75"><i class="bi bi-star-fill"></i>
+                                    4.6</span>
+                                <button class="btn btn-light btn-sm rounded-circle shadow-sm"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="doctor-content p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="text-danger small fw-bold">Pediatrician</span>
+                                <span class="text-success small"><i class="bi bi-circle-fill me-1"
+                                        style="font-size: 8px;"></i>
+                                    Available</span>
+                            </div>
+                            <h4 class="h5 fw-bold mb-1">Dr. Nicholas Tello</h4>
+                            <p class="text-muted small mb-3"><i class="bi bi-geo-alt me-1"></i> Ogden, IA • 60
+                                Min</p>
+                            <hr class="text-muted opacity-25">
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-muted d-block small">Consultation Fees</span>
+                                    <span class="h5 fw-bold text-primary mb-0">$350</span>
+                                </div>
+                                <button
+                                    class="btn btn-dark rounded-circle p-2 d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="bi bi-calendar-check"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors">
+                    <div class="doctor-card shadow-sm bg-white rounded-4 overflow-hidden">
+                        <div class="doctor-img-wrap position-relative">
+                            <img src="./OwlCarousel/images/doctor-3.jpg" class="img-fluid doctor-img" alt="Doctor">
+                            <div
+                                class="card-badges position-absolute top-0 start-0 w-100 p-3 d-flex justify-content-between align-items-center">
+                                <span class="badge bg-danger bg-opacity-75"><i class="bi bi-star-fill"></i>
+                                    4.6</span>
+                                <button class="btn btn-light btn-sm rounded-circle shadow-sm"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="doctor-content p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="text-danger small fw-bold">Pediatrician</span>
+                                <span class="text-success small"><i class="bi bi-circle-fill me-1"
+                                        style="font-size: 8px;"></i>
+                                    Available</span>
+                            </div>
+                            <h4 class="h5 fw-bold mb-1">Dr. Nicholas Tello</h4>
+                            <p class="text-muted small mb-3"><i class="bi bi-geo-alt me-1"></i> Ogden, IA • 60
+                                Min</p>
+                            <hr class="text-muted opacity-25">
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-muted d-block small">Consultation Fees</span>
+                                    <span class="h5 fw-bold text-primary mb-0">$350</span>
+                                </div>
+                                <button
+                                    class="btn btn-dark rounded-circle p-2 d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="bi bi-calendar-check"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors">
+                    <div class="doctor-card shadow-sm bg-white rounded-4 overflow-hidden">
+                        <div class="doctor-img-wrap position-relative">
+                            <img src="./OwlCarousel/images/doctor-4.jpg" class="img-fluid doctor-img" alt="Doctor">
+                            <div
+                                class="card-badges position-absolute top-0 start-0 w-100 p-3 d-flex justify-content-between align-items-center">
+                                <span class="badge bg-danger bg-opacity-75"><i class="bi bi-star-fill"></i>
+                                    4.6</span>
+                                <button class="btn btn-light btn-sm rounded-circle shadow-sm"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="doctor-content p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="text-danger small fw-bold">Pediatrician</span>
+                                <span class="text-success small"><i class="bi bi-circle-fill me-1"
+                                        style="font-size: 8px;"></i>
+                                    Available</span>
+                            </div>
+                            <h4 class="h5 fw-bold mb-1">Dr. Nicholas Tello</h4>
+                            <p class="text-muted small mb-3"><i class="bi bi-geo-alt me-1"></i> Ogden, IA • 60
+                                Min</p>
+                            <hr class="text-muted opacity-25">
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-muted d-block small">Consultation Fees</span>
+                                    <span class="h5 fw-bold text-primary mb-0">$350</span>
+                                </div>
+                                <button
+                                    class="btn btn-dark rounded-circle p-2 d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="bi bi-calendar-check"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctors">
+                    <div class="doctor-card shadow-sm bg-white rounded-4 overflow-hidden">
+                        <div class="doctor-img-wrap position-relative">
+                            <img src="./OwlCarousel/images/doctor-5.jpg" class="img-fluid doctor-img" alt="Doctor">
+                            <div
+                                class="card-badges position-absolute top-0 start-0 w-100 p-3 d-flex justify-content-between align-items-center">
+                                <span class="badge bg-danger bg-opacity-75"><i class="bi bi-star-fill"></i>
+                                    4.6</span>
+                                <button class="btn btn-light btn-sm rounded-circle shadow-sm"><i
+                                        class="bi bi-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="doctor-content p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="text-danger small fw-bold">Pediatrician</span>
+                                <span class="text-success small"><i class="bi bi-circle-fill me-1"
+                                        style="font-size: 8px;"></i>
+                                    Available</span>
+                            </div>
+                            <h4 class="h5 fw-bold mb-1">Dr. Nicholas Tello</h4>
+                            <p class="text-muted small mb-3"><i class="bi bi-geo-alt me-1"></i> Ogden, IA • 60
+                                Min</p>
+                            <hr class="text-muted opacity-25">
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-muted d-block small">Consultation Fees</span>
+                                    <span class="h5 fw-bold text-primary mb-0">$350</span>
+                                </div>
+                                <button
+                                    class="btn btn-dark rounded-circle p-2 d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="bi bi-calendar-check"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="scrolling-ticker my-5">
+            <div class="ticker-content">
+                <span class="ticker-item">Speciality Treatments & Doctors</span>
+                <span class="ticker-item">Lab Testing Services</span>
+                <span class="ticker-item">Medicines & Supplies</span>
+                <span class="ticker-item">Hospitals & Clinics</span>
+                <span class="ticker-item">Health Care Services</span>
+                <span class="ticker-item">Talk to Expert</span>
+                <span class="ticker-item">Speciality Treatments & Doctors</span>
+                <span class="ticker-item">Lab Testing Services</span>
+                <span class="ticker-item">Medicines & Supplies</span>
+                <span class="ticker-item">Hospitals & Clinics</span>
+                <span class="ticker-item">Health Care Services</span>
+                <span class="ticker-item">Talk to Expert</span>
+            </div>
+        </div>
+
+        <section class="container wow animate__animated animate__slideInUp ">
+            <h5 class="title bg-primary text-light p-2 rounded-pill mt-5">Why Book With Us</h5>
+            <h5 class="h1 text-center my-5">Compelling<span class="text-primary">Reasons</span>to Choose</h5>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="reason-card text-center p-5 rounded-4 border ">
+                        <div class=" mb-4 h3">
+                            <i class="bi bi-person-badge bg-info bg-opacity-50 p-3 rounded-circle text-info"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Follow-Up Care</h4>
+                        <p class="text-muted">We ensure continuity of care through regular follow-ups and communication,
+                            helping you stay on track with health goals.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="reason-card text-center p-5 rounded-4 border">
+                        <div class=" mb-4 h3">
+                            <i class="bi bi-reception-4 bg-danger bg-opacity-50 p-3 rounded-circle text-danger"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Patient-Centered</h4>
+                        <p class="text-muted">We prioritize your comfort and preferences, tailoring our services to meet
+                            your individual needs and Care from Our Experts</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="reason-card text-center p-5 rounded-4 border">
+                        <div class=" mb-4 h3">
+                            <i
+                                class="bi bi-calendar-check bg-primary bg-opacity-50 p-3 rounded-circle text-primary"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Convenient Access</h4>
+                        <p class="text-muted">Easily book appointments online or through our dedicated customer service
+                            team, with flexible hours to fit your schedule.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid bg-black">
+            <section class="container row mx-5 wow animate__animated animate__slideInUp">
+                <div class="video col-lg-6 col-sm-12 col-md-12 position-relative">
+                    <div>
+                        <img class="col-12 rounded-4 mt-2" src="./images/videa1.jpg" alt="">
+                    </div>
+                    <div class="row">
+                        <img class="col-6 rounded-5 mt-3" src="./images/vidae2.jpg" alt="">
+                        <img class="col-6 rounded-5 mt-3" src="./images/vidae 3.jpg" alt="">
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button"
+                        class=" video-btn position-absolute rounded-circle bg-primary border-5 border-light"
+                        data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
+                        data-bs-target="#myModal">
+                        <i class="bi bi-play-circle-fill position-absolute text-black"></i>
+                        <div class="circle-container ">
+                            <div class="circle-text d-flex justify-content-center">
+                                <span class="span">p</span>
+                                <span class="span">l</span>
+                                <span class="ch3">a</span>
+                                <span class="ch4">y</span>
+                                <span class="ch6">v</span>
+                                <span class="ch7">i</span>
+                                <span class="ch8">d</span>
+                                <span class="ch9">e</span>
+                                <span class="ch10">o</span>
+                                <span class="ch5"></span>
+                                <span class="ch11">.</span>
+                                <span class="span">p</span>
+                                <span class="span">l</span>
+                                <span class="ch3">a</span>
+                                <span class="ch4">y</span>
+                                <span class="ch5">.</span>
+                                <span class="ch6">v</span>
+                                <span class="ch7">i</span>
+                                <span class="ch8">d</span>
+                                <span class="ch9">e</span>
+                                <span class="ch10">o</span>
+                                <span class="ch11">.</span>
+                                <span class="ch5"></span>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="about col-lg-6 col-sm-12 col-md-12">
+                    <h5 class="bg-primary text-light p-2 rounded-pill mt-3" style="width: fit-content;">About Us</h5>
+                    <h5 class="h1 mt-4 text-light">We are committed to understanding your<span
+                            class="text-primary">unique
+                            needs and delivering care.</span></h5>
+                    <p class="text-light h6 mt-2 lh-lg">As a trusted health as a trusted healthcare provider in our
+                        community, we are passionate about promoting health and
+                        wellness beyond the clinic.</p>
+                    <div class="bg-dark text-white rounded-3 p-1 m-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="text-white text-decoration-none fw-bold ">Our Vision</a>
+                            <button class="btn btn-outline-primary border-0 fw-bold  toggle-btn">+</button>
+                        </div>
+                        <p class="toggle-text d-none mt-3 text-white">
+                            We envision a community where everyone has access to high-quality healthcare.
+                        </p>
+                    </div>
+
+                    <div class="bg-dark text-white  rounded-3 p-1 m-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="text-white text-decoration-none fw-bold ">Our Mission</a>
+                            <button class="btn btn-outline-primary border-0 fw-bold  toggle-btn">+</button>
+                        </div>
+                        <p class="toggle-text d-none mt-3 text-white">
+                            To provide exceptional medical care with compassion and respect for every patient.
+                        </p>
+                    </div>
+                </div>
+                <div class="row-cols-lg-4 row-cols-2 my-5 text-center text-light d-flex justify-content-between">
+                    <div class="p-2">
+                        <i class="bi bi-person-rolodex bg-success rounded-circle p-2 h3"></i>
+                        <div class="my-4 bookus-sec">
+                            <h5 class="h4">Search For Doctors</h5>
+                            <p class="h6">Search for a doctor based on specialization, location, or availability for
+                                your
+                                Treatements</p>
+                            <h3>01</h3>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <i class="bi bi-calendar-event bg-primary rounded-circle p-2 h3"></i>
+                        <div class="my-4 bookus-sec">
+                            <h5 class="h4">Search For Doctors</h5>
+                            <p class="h6">Search for a doctor based on specialization, location, or availability for
+                                your
+                                Treatements</p>
+                            <h3>02</h3>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <i class="bi bi-balloon-heart-fill bg-danger rounded-circle p-2 h3"></i>
+                        <div class="my-4 bookus-sec">
+                            <h5 class="h4">Search For Doctors</h5>
+                            <p class="h6">Search for a doctor based on specialization, location, or availability for
+                                your
+                                Treatements</p>
+                            <h3>03</h3>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <i class="bi bi-brilliance bg-info rounded-circle p-2 h3"></i>
+                        <div class="my-4 bookus-sec">
+                            <h5 class="h4">Search For Doctors</h5>
+                            <p class="h6">Search for a doctor based on specialization, location, or availability for
+                                your
+                                Treatements</p>
+                            <h3>04</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+
+                    <div class="modal-body">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=MyQxnFgPgQU"
+                                id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="container-fluid bg-info.bg-gradient wow animate__animated animate__slideInUp">
+            <h5 class="title bg-primary text-light p-2 rounded-pill mt-5">Why Book With Us</h5>
+            <h5 class="h1 text-center my-3">15k Users<span class="text-primary">Trust Doccure</span>Worldwide</h5>
+            <div class=" container d-flex row-cols-3">
+                <div class="bg-light rounded-4 p-3 me-1 my-2 testimonials">
+                    <div class="d-flex justify-content-between">
+                        <div class="mb-2">
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                        </div>
+                        <span><img src="./images/,,.png" alt=""></span>
+                    </div>
+                    <h4 class="h3">Nice Treatment</h4>
+                    <p class="lh-lg">I had a wonderful experience the staff was friendly and attentive, and Dr. Smith
+                        took
+                        the time to explain everything
+                        clearly.</p>
+                    <div>
+                        <span class="m-3 d-flex"><img class=" rounded-circle border-light" style="width: 40px;"
+                                src="./images/avatar 1.jpg" alt="">
+                            <span>
+                                <p class="m-0">Deny Hendrawan</p>
+                                <p class="m-0">United States</p>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bg-light rounded-4 p-3 me-1 my-2 testimonials">
+                    <div class="d-flex justify-content-between">
+                        <div class="mb-2">
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                        </div>
+                        <span><img src="./images/,,.png" alt=""></span>
+                    </div>
+                    <h4 class="h3">Nice Treatment</h4>
+                    <p class="lh-lg">I had a wonderful experience the staff was friendly and attentive, and Dr. Smith
+                        took
+                        the time to
+                        explain everything
+                        clearly.</p>
+                    <div>
+                        <span class="m-3 d-flex"><img class=" rounded-circle border-light" style="width: 40px;"
+                                src="./images/avatar 1.jpg" alt="">
+                            <span>
+                                <p class="m-0">Deny Hendrawan</p>
+                                <p class="m-0">United States</p>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bg-light rounded-4 p-3 me-1 my-2 testimonials">
+                    <div class="d-flex justify-content-between">
+                        <div class="mb-2">
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                            <span><i class="bi bi-star-fill text-warning m-1"></i></span>
+                        </div>
+                        <span><img src="./images/,,.png" alt=""></span>
+                    </div>
+                    <h4 class="h3">Nice Treatment</h4>
+                    <p class="lh-lg">I had a wonderful experience the staff was friendly and attentive, and Dr. Smith
+                        took
+                        the time to
+                        explain everything
+                        clearly.</p>
+                    <div>
+                        <span class="m-3 d-flex"><img class=" rounded-circle border-light" style="width: 40px;"
+                                src="./images/avatar 1.jpg" alt="">
+                            <span>
+                                <p class="m-0">Deny Hendrawan</p>
+                                <p class="m-0">United States</p>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="doccure-stats-section my-3">
+            <div class="container wow animate__animated animate__slideInUp">
+                <div class="row-cols-lg-5 d-flex text-center">
+                    <div class="stat-item">
+                        <h2 class="stat-num cyan-line h1 fw-bold align-items-baseline">
+                            <span class="counter border-4 border-bottom border-success" data-target="500">0</span>+
+                        </h2>
+                        <p>Doctors Available</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2 class="stat-num blue-line h1 fw-bold align-items-baseline">
+                            <span class="counter border-4 border-bottom border-primary" data-target="18">0</span>+
+                        </h2>
+                        <p>Specialities</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2 class="stat-num purple-line h1 fw-bold align-items-baseline">
+                            <span class="counter border-4 border-bottom border-info" data-target="30">0</span>K
+                        </h2>
+                        <p>Bookings Done</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2 class="stat-num green-line h1 fw-bold align-items-baseline">
+                            <span class="counter border-4 border-bottom border-danger" data-target="97">0</span>+
+                        </h2>
+                        <p>Hospitals & Clinic</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2 class="stat-num orange-line h1 fw-bold align-items-baseline">
+                            <span class="counter border-4 border-bottom border-warning" data-target="317">0</span>+
+                        </h2>
+                        <p>Lab Tests Available</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class=" container-fluid pt-5 bg-black text-center wow animate__animated animate__slideInUp" style="border-radius: 0 0 30px 30px;">
+            <p class="text-light mb-5">Trusted Partners with Doccure</p>
+            <div id="ticker-wrapper-track" class="owl-carousel pb-5 container">
+                <div class="item">
+                    <img src="./images/company-01.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./images/company-02.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./images/company-03.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./images/company-04.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./images/company-05.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./images/company-06.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./images/company-07.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-5 wow animate__animated animate__slideInUp">
+            <span class="bg-primary text-light p-2 rounded-pill mt-3">FAQ'S</span>
+            <h5 class="h1 mt-2">Your Questions are<span class="text-primary">Answered</span></h5>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion custom-doccure-accordion" id="faqAccordionMain">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#q1" aria-expanded="true">
+                                    How do I book an appointment with a doctor?
+                                </button>
+                            </h2>
+                            <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqAccordionMain">
+                                <div class="accordion-body">
+                                    Simply visit our website, log in to your account, search for
+                                    the doctor you need, and select a time slot that suits you.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#q2">
+                                    Can I request a specific doctor when booking my appointment?
+                                </button>
+                            </h2>
+                            <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordionMain">
+                                <div class="accordion-body">
+                                    Yes, you can filter results by doctor name, specialty, or
+                                    clinic to find the specific professional you prefer.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#q3">
+                                    What should I do if I need to cancel or reschedule my
+                                    appointment?
+                                </button>
+                            </h2>
+                            <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordionMain">
+                                <div class="accordion-body">
+                                    You can manage your appointments through your dashboard.
+                                    Cancellations should be made at least 24 hours in advance.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#q4">
+                                    What if I'm running late for my appointment?
+                                </button>
+                            </h2>
+                            <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAccordionMain">
+                                <div class="accordion-body">
+                                    Please contact the clinic as soon as possible. Depending on
+                                    the schedule, they may hold your slot or help you
+                                    reschedule.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#q5">
+                                    Can I book appointments for family members or dependents?
+                                </button>
+                            </h2>
+                            <div id="q5" class="accordion-collapse collapse show" data-bs-parent="#faqAccordionMain">
+                                <div class="accordion-body">
+                                    Yes, in many cases, you can book appointments for family
+                                    members or dependents. However, you may need to provide
+                                    their personal information and consent to do so.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#q6">
+                                    Is there a consultation fee for using Doccure?
+                                </button>
+                            </h2>
+                            <div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqAccordionMain">
+                                <div class="accordion-body">
+                                    Doccure itself is free to use for booking. You only pay the
+                                    consultation fee set by the doctor or the clinic.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="container-fluid">
+            <div class="container bg-primary rounded-3 wow animate__animated animate__slideInUp" style="height: 65vh; overflow: hidden;">
+                <div class="row col-12">
+                    <div class=" col-lg-6 col-12">
+                        <p class="p-5 text-light">Working for Your Better Health.</p>
+                        <h3 class="h1 text-light px-5">Download the Doccure App today!</h3>
+                        <div class="row-cols-2 px-5">
+                            <a href="#"><img src="./images/app-1.png" alt=""></a>
+                            <a href="#"><img src="./images/app-2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <img class="col-12 mt-5" src="./images/mobile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid mt-5">
+            <div class="container text-center wow animate__animated animate__slideInUp">
+                <span class="bg-primary text-light p-2 rounded-pill mt-3">Recent Blogs</span>
+                <h5 class="h1 mt-2">Stay Updated With Our<span class="text-primary">Latest Articles</span></h5>
+                <div class="row row-lg-cols-2 col-12">
+                    <div class="col-lg-6 col-12 p-2 border rounded-3 recent">
+                        <div class="position-relative row ">
+                            <img class="col-6 rounded-2 recent-img" src="./images/article-01.jpg" alt="">
+                            <div class="position-absolute px-3 bg-light rounded-4"
+                                style="width: fit-content; aspect-ratio: 1/1; left: 5%; top:15% ;">
+                                <span class="d-block">15</span>
+                                <span class="d-block">May</span>
+                            </div>
+                            <div class="col-6">
+                                <span class="bg-primary rounded-3 d-block text-light text-center p-1"
+                                    style="width: fit-content;">Treatments</span>
+                                <a href="#" class="h4">Understanding and Preventing ....</a>
+                                <p>Glaucoma is a leading cause of blind worldwide, yet many....</p>
+                                <a href="#" class="a">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-12 p-2 border rounded-3 recent">
+                        <div class="position-relative row ">
+                            <img class="col-6 rounded-2 recent-img" src="./images/article-02.jpg" alt="">
+                            <div class="position-absolute px-3 bg-light rounded-4"
+                                style="width: fit-content; aspect-ratio: 1/1; left: 5%; top:15% ;">
+                                <span class="d-block">18</span>
+                                <span class="d-block">May</span>
+                            </div>
+                            <div class="col-6">
+                                <span class="bg-primary rounded-3 d-block text-light text-center p-1"
+                                    style="width: fit-content;">Treatments</span>
+                                <a href="#" class="h4">Understanding and Preventing ....</a>
+                                <p>Glaucoma is a leading cause of blind worldwide, yet many....</p>
+                                <a href="#" class="a">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center wow animate__animated animate__slideInUp">
+            <a class="btn btn-dark m-3 rounded-pill" href="#">View All Articles</a>
+        </div>
+        <section class="container-fluid mt-5">
+            <div class="container text-center pt-5 bg-primary  rounded-3 wow animate__animated animate__slideInUp">
+                <h3 class="h1 text-light mb-3">Working for Your Better Health.</h3>
+                <div class="row row-cols-2 " style="padding: 2% 22%;">
+                    <div class="row ">
+                        <i class="bi bi-chat-left-text-fill h6 bg-light border rounded-circle  text-primary align-middle p-3"
+                            style="width: fit-content;"></i>
+                        <div class="col-6 text-light">
+                            <p class="m-0">Emergency Cases</p>
+                            <h5 class="h6"><a href="#">+1 24565 89856</a></h5>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <i class="bi bi-earbuds h6 bg-light  border rounded-circle  text-primary align-middle p-3"
+                            style="width: fit-content;"></i>
+                        <div class="col-6 text-light">
+                            <p class="m-0">Emergency Cases</p>
+                            <h5 class="h6"><a href="#">+1 24565 89856</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer bg-light mt-5 text-primary">
+            <div class="container wow animate__animated animate__slideInUp">
+                <div class="row">
+
+                    <div class="col-lg-2 col-md-6 footer-section ">
+                        <h5>Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="./contact us.html">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-section">
+                        <h5>Support</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Contact Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-section">
+                        <h5>Support</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Contact Support</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-section">
+                        <h5>Support</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Contact Support</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 footer-section">
+                        <h5>Newsletter</h5>
+                        <p class="footer-about">Subscribe to our newsletter for updates, news, and exclusive offers.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="footer-newsletter">
+                            <input type="email" placeholder="Enter your email">
+                            <button class="newsletter-btn rounded-pill w-25">
+                                <i class="fas fa-paper-plane"></i>
+                                Send
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom d-flex align-middle">
+                    <ul class="footer-bottom-links col-lg-4">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                    <p class="col-lg-4 p-3">© 2024 CompanyName. All rights reserved.</p>
+                    <div class="payment d-flex col-lg-4 text-end">
+                        <img style="width:3rem ;" class="mx-2" src="./images/imgi_22_card-01.svg" alt="">
+                        <img style="width:3rem ;" class="mx-2" src="./images/imgi_23_card-02.svg" alt="">
+                        <img style="width:3rem ;" class="mx-2" src="./images/imgi_26_card-05.svg" alt="">
+                        <img style="width:3rem ;" class="mx-2" src="./images/imgi_27_card-06.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="fonts/js/all.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./OwlCarousel/jquery.js"></script>
+    <script src="./OwlCarousel/owl-carousel.js"></script>
+    <script src="./OwlCarousel/owl-carosel-min.js"></script>
+    <script src="./JS/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#ticker-wrapper-track").owlCarousel({
+                loop: true,
+                margin: 25,
+                nav: false,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 4,
+                    },
+                },
+            })
+        })
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

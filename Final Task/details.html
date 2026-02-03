@@ -1,0 +1,1197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharmacy Details | Doccure</title>
+    <link rel="shortcut icon" href="./images/favicon.webp" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./OwlCarousel/owl-carousel-min.css" />
+    <link rel="stylesheet" href="./OwlCarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container-fluid position-relative">
+      <div class="header-theme header-theme-two border rounded-pill bg-light" style="width: 4%;">
+        <button type="button" id="dark-mode-toggle" class="theme-toggle moon border-0 rounded-circle py-3">
+          <i class="bi bi-moon-fill h3"></i>
+        </button>
+        <button type="button" id="light-mode-toggle" class="theme-toggle sun border-0  rounded-circle py-3">
+          <i class="bi bi-brightness-low-fill h3"></i>
+        </button>
+      </div>
+    <!-- Navbar -->
+    <section class="container-fluid position-sticky z-3 top-0 bg-light">
+      <nav class="container navbar navbar-expand-lg bg-light ">
+        <div class="container p-0">
+          <a class="navbar-brand col-2 ps-2" href="#"><img src="./images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse col-8  px-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown position-static">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Home
+                </a>
+                <div class="dropdown-menu w-100 p-3 home overflow-scroll" style="height: 90vh;">
+                  <div class="row row-cols-1 row-cols-md-5 g-1">
+                    <div class="col p-3">
+                      <div class="card  p-1">
+                        <a href="#"><img src="./images/home.webp" class="card-img-top" alt="General Home 1"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">General Home 1</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href="#"><img src="./images/home-02.webp" class="card-img-top" alt="General Home 2"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">General Home 2</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-03.webp" class="card-img-top" alt="Dental"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Dental</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-04.webp" class="card-img-top" alt="Pediatrics"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Pediatrics</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-05.webp" class="card-img-top" alt="ENT"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">ENT</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-06.webp" class="card-img-top" alt="Veterinary"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Veterinary</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-07.webp" class="card-img-top" alt="Cardiology"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Cardiology</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""> <img src="./images/home-08.webp" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Home Care</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-09.webp" class="card-img-top" alt="Fertility"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Fertility</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-10.webp" class="card-img-top" alt="Cosmetic Surgery"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Cosmetic Surgery</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-11.webp" class="card-img-top" alt="Laboratory"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Laboratory</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-12.webp" class="card-img-top" alt="Pharmacy"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Pharmacy</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/home-13.webp" class="card-img-top" alt="Eye Care"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Eye Care</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""><img src="./images/coming-soon.webp" class="card-img-top" alt="Coming Soon"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Coming Soon</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-3">
+                      <div class="card p-1">
+                        <a href=""> <img src="./images/coming-soon.webp" class="card-img-top" alt="Coming Soon"></a>
+                        <div class="card-body">
+                          <a href="">
+                            <h5 class="card-title h6">Coming Soon</h5>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Doctors
+                </a>
+                <div class=" dropdown-menu doctor text-start" style="width: 40rem ;height: 50vh;">
+                  <div class="row row-cols-md-2 position-absolute d-flex">
+                    <ul class=" p-5">
+                      <li><a href="./dashboard.html">Doctor Dashboard</a></li>
+                      <li><a href="#">Appointments</a></li>
+                      <li><a href="#">Available Timing</a></li>
+                      <li><a href="#">Patients List</a></li>
+                      <li><a href="#">Chat</a></li>
+                      <li><a href="#">Invoices</a></li>
+                      <li><a href="#">Profile Settings</a></li>
+    
+                    </ul>
+                    <div class="doctors-img col-6 h-50 ">
+                      <img class="" src="./images/menu-img-1.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+    
+              </li>
+    
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Patients
+                </a>
+                <div class=" dropdown-menu patient text-start" style="width: 45rem ;height: 50vh;">
+                  <div class="row row-cols-md-3 position-absolute d-flex">
+                    <ul class=" p-5 col-lg-4 before">
+                      <li><a href="#">Patient Dashboard</a></li>
+                      <li><a href="#">Doctors Grid</a></li>
+                      <li><a href="#">Doctors List</a></li>
+                      <li><a href="#">Doctors Availability</a></li>
+                      <li><a href="#">Booking</a></li>
+                      <li><a href="#">Booking 1</a></li>
+                      <li><a href="#">Booking 2</a></li>
+    
+                    </ul>
+                    <ul class=" p-5 col-lg-4">
+                      <li><a href="#">Search Doctor 1</a></li>
+                      <li><a href="#">Search Doctor 2</a></li>
+                      <li><a href="#">Doctor Profile 1</a></li>
+                      <li><a href="#">Doctor Profile 2</a></li>
+                      <li><a href="#">Checkout</a></li>
+                      <li><a href="#">Favourites</a></li>
+                      <li><a href="#">Chat</a></li>
+    
+                    </ul>
+    
+                    <div class="doctors-img col-lg-4 h-50 my-3">
+                      <img class="" src="./images/menu-img-2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+    
+              </li>
+              <li class="nav-item dropdown d-sm-block">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pharmacy
+                </a>
+                <div class=" dropdown-menu pharmacy text-start" style="width: 40rem ;height: 50vh;">
+                  <div class="row row-cols-md-3 position-absolute d-flex">
+                    <ul class=" p-5 col-lg-6">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="./details.html">Pharmacy Details</a></li>
+                      <li><a href="#">Pharmacy Search</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product Description</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product Checkout</a></li>
+    
+                    </ul>
+    
+                    <div class="doctors-img col-lg-6 h-50 my-3">
+                      <img class="" src="./images/menu-img-3.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+    
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <div class=" dropdown-menu pages text-start  " style="width: 45rem ;height: 70vh; left: -100%;">
+                  <div class="row row-cols-md-4 position-absolute d-flex">
+                    <ul class=" p-5 col-lg-3 before">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="./contact us.html">Contact Us</a></li>
+                      <li><a href="#">Hospitals</a></li>
+                      <li><a href="#">Speciality</a></li>
+                      <li><a href="#">Clinic</a></li>
+                      <li><a href="#">Starter Page</a></li>
+                      <li><a href="#">Pricing Plan</a></li>
+    
+                    </ul>
+    
+                    <ul class=" p-5 col-lg-3 before">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product</a></li>
+    
+                    </ul>
+                    <ul class=" p-5 col-lg-3 before">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product</a></li>
+    
+                    </ul>
+                    <ul class=" p-5 col-lg-3">
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Pharmacy</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Product</a></li>
+    
+                    </ul>
+                  </div>
+                </div>
+    
+              </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu text-start blog w-100">
+                  <li><a class="dropdown-item" href="#">Blog List</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                  <li><a class="dropdown-item" href="./blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Admin
+                </a>
+                <ul class="dropdown-menu text-start admin w-100">
+                  <li><a class="dropdown-item" href="#">Admin</a></li>
+                  <li><a class="dropdown-item" href="#">Pharmacy Admin</a></li>
+                </ul>
+              </li>
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+        <div class="col-lg-2 text-center d-sm-none d-md-none d-lg-block">
+          <button class="btn-menu border-0  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <i class="bi bi-x-diamond-fill rounded-circle"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="offcanvas offcanvas-end" tabindex="3" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title p-3" id="offcanvasRightLabel"><img src="./images/logo.png" alt=""></h5>
+          <button type="button" class="btn-close border border-2 rounded-circle my-3" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body m-3">
+          <div>
+            <h4>About Doccure</h4>
+            <p>Modern healthcare platform designed to simplify the way patients connect with doctors, clinics &
+              medical services.</p>
+          </div>
+          <div class="menu-img row-cols-3 ">
+            <img class="w-25 m-2 rounded-3" src="./images/menu-1.jpg" alt="">
+            <img class="w-25 m-2 rounded-3" src="./images/menu-2.jpg" alt="">
+            <img class="w-25 m-2 rounded-3" src="./images/menu-3.jpg" alt="">
+    
+          </div>
+          <div class="our locations mt-4 border rounded-3 px-3">
+            <h4>Our Locations</h4>
+            <h5>California</h5>
+            <p>1250 Sunset, Los Angeles, CA</p>
+            <h5>Los Angeles</h5>
+            <p>669 Boulevard, Los Angeles</p>
+          </div>
+          <div class="contact information border rounded-3 my-2 p-3">
+            <h4>Contact Information</h4>
+            <div class="row py-1">
+              <i class="bi bi-chat-right-text-fill h6  text-light col-2 border rounded-circle  bg-primary align-middle p-3"
+                style="height:auto;"></i>
+              <div class="col-10">
+                <p class="m-0">General Inquiries</p>
+                <h5 class="h6"><a href="#">info@example.com</a></h5>
+              </div>
+            </div>
+            <div class="row ">
+              <i class="bi bi-telephone-fill h6 text-light col-2 border rounded-circle  bg-primary align-middle p-3"
+                style="height:auto;"></i>
+              <div class="col-10">
+                <p class="m-0">Emergency Cases</p>
+                <h5 class="h6"><a href="#">+1 24565 89856</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="socil w-75 my-2 px-3">
+            <h4 class="my-4">Follow Us</h4>
+            <a href="#" class="text-black"> <i class="bi bi-facebook rounded-circle text-body-secondary"></i></a>
+            <a href="#" class="text-black"><i class="bi bi-twitter-x rounded-circle text-body-secondary"></i></a>
+            <a href="#" class="text-black"><i class="bi bi-instagram rounded-circle text-body-secondary"></i></a>
+            <a href="#" class="text-black"><i class="bi bi-linkedin rounded-circle text-body-secondary"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <main class="overflow-hidden">
+
+      <section
+        class="position-relative bg-light text-center py-5 overflow-hidden"
+      >
+        <div class="container position-relative">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-3 small">
+              <li class="breadcrumb-item">
+                <a href="index.html" class="text-decoration-none">
+                <i class="bi bi-houses-fill text-primary"></i>
+                </a>
+              </li>
+              <li class="breadcrumb-item">
+                <i class="fa-solid fa-angle-right"></i>
+                Pharmacy
+                <i class="fa-solid fa-angle-right"></i>
+              </li>
+              <li class="breadcrumb-item">Pharmacy Details</li>
+            </ol>
+          </nav>
+
+          <!-- Title -->
+          <h2 class="fw-bold mb-0">Pharmacy Details</h2>
+        </div>
+
+        <!-- top-left shape -->
+        <img
+          src="./images/breadcrumb-bg-01.png"
+          class="position-absolute top-0 start-0"
+        />
+
+        <!-- bottom-right shape -->
+        <img
+          src="./images/breadcrumb-bg-02.png"
+          class="position-absolute bottom-0 end-0"
+        />
+
+        <!-- floating icon 1 -->
+        <img
+          src="./images/breadcrumb-icon.png"
+          class="position-absolute top-50 start-0 translate-middle-y"
+        />
+
+        <!-- floating icon 2 -->
+        <img
+          src="./images/breadcrumb-icon.png"
+          class="position-absolute bottom-0 start-50 translate-middle-x"
+        />
+      </section>
+
+      <!-- Pharmacy Details Section -->
+      <section class="container py-5">
+        <div class="card-cont p-2 border-1 shadow border border-light-subtle">
+          <div class="card-body">
+            <div class="row align-items-center">
+              <!-- Image Column -->
+              <div class="col-12 col-md-3">
+                <img
+                  src="./images/medical-img1.jpg"
+                  alt="Medlife Medical Pharmacy"
+                  class="w-100"
+                />
+              </div>
+
+              <!-- Details Column -->
+              <div class="col-12 col-md-6">
+                <h4 class="mb-2 lh-1 h5">Medlife Medical</h4>
+                <div class="d-flex align-items-center gap-2 mb-3">
+                  <span class="badge bg-primary small">4.0</span>
+                  <i class="fa-solid fa-star text-warning small"></i>
+                  <i class="fa-solid fa-star text-warning small"></i>
+                  <i class="fa-solid fa-star text-warning small"></i>
+                  <i class="fa-solid fa-star text-warning small"></i>
+                  <i class="fa-regular fa-star text-warning small"></i>
+                  <span class="text-muted small">(17)</span>
+                </div>
+                <p class="d-flex align-items-center gap-1 mb-2 text-muted">
+                  <i class="fa-solid fa-phone small"></i>
+                  <span class="small">320-795-8815</span>
+                </p>
+                <p class="d-flex align-items-center gap-1 mb-2 text-muted">
+                  <i class="fa-solid fa-location-dot small"></i>
+                  <span class="small">96 Red Hawk Road Cyrus, MN 56323</span>
+                </p>
+                <p class="d-flex align-items-center gap-1 mb-2 text-muted">
+                  <i class="fa-solid fa-chevron-right small"></i>
+                  <span class="small">Chemists, Surgical Equipment Dealer</span>
+                </p>
+                <p class="d-flex align-items-center gap-1 mb-2 text-muted">
+                  <i class="fa-solid fa-chevron-right small"></i>
+                  <span class="small">Opens at 08.00 AM</span>
+                </p>
+              </div>
+
+              <!-- Action Buttons Column -->
+              <div class="col-12 col-md-3 d-flex flex-column gap-2">
+                <button
+                  class="btn btn-outline-primary rounded-pill border-2 fw-semibold w-100"
+                >
+                  Send Message
+                </button>
+                <button
+                  class="btn btn-outline-primary rounded-pill border-2 fw-semibold w-100"
+                >
+                  Call Now
+                </button>
+                <button
+                  class="btn btn-outline-primary rounded-pill border-2 fw-semibold w-100"
+                >
+                  Browse Products
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tabs Section (Overview, Locations, Reviews, Hours) -->
+      <section class="container-fluid py-5">
+        <div class="container shadow card-cont">
+          <!-- Tab Navigation -->
+          <ul
+            class="nav nav-tabs border-bottom mb-4 d-flex justify-content-between"
+            id="pharmacyTabs"
+            role="tablist"
+          >
+            <li class="nav-item flex-fill text-center" role="presentation">
+              <button
+                class="nav-link active w-100 border-0 text-primary fw-semibold"
+                id="overview-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#overview"
+              >
+                Overview
+              </button>
+            </li>
+            <li class="nav-item flex-fill text-center" role="presentation">
+              <button
+                class="nav-link w-100 border-0 text-dark"
+                id="locations-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#locations"
+              >
+                Locations
+              </button>
+            </li>
+            <li class="nav-item flex-fill text-center" role="presentation">
+              <button
+                class="nav-link w-100 border-0 text-dark"
+                id="reviews-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#reviews"
+              >
+                Reviews
+              </button>
+            </li>
+            <li class="nav-item flex-fill text-center" role="presentation">
+              <button
+                class="nav-link w-100 border-0 text-dark"
+                id="hours-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#hours"
+              >
+                Business Hours
+              </button>
+            </li>
+          </ul>
+          <!-- Tab Content --->
+          <div class="tab-content p-3 p-md-4" id="pharmacyTabsContent">
+            <!-- Overview Tab -->
+            <div
+              class="tab-pane fade show active"
+              id="overview"
+              role="tabpanel"
+            >
+              <h5 class="mb-3">About Me</h5>
+              <p class="mb-4 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+
+              <h5 class="mb-4">Awards</h5>
+
+              <!-- Timeline Item 1 -->
+              <div class="d-flex">
+                <div
+                  class="d-flex flex-column align-items-center me-3"
+                  style="width: 20px"
+                >
+                  <div
+                    class="rounded-circle border border-2 border-primary bg-white"
+                    style="width: 14px; height: 14px; flex-shrink: 0"
+                  ></div>
+                  <div class="bg-primary flex-grow-1" style="width: 2px"></div>
+                </div>
+                <div class="flex-grow-1 pb-4">
+                  <h6 class="text-primary mb-2">July 2023</h6>
+                  <h6 class="mb-2">Humanitarian Award</h6>
+                  <p class="text-muted small mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin a ipsum tellus. Interdum et malesuada fames ac ante
+                    ipsum primis in faucibus.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Timeline Item 2 -->
+              <div class="d-flex">
+                <div
+                  class="d-flex flex-column align-items-center me-3"
+                  style="width: 20px"
+                >
+                  <div
+                    class="rounded-circle border border-2 border-primary bg-white"
+                    style="width: 14px; height: 14px; flex-shrink: 0"
+                  ></div>
+                  <div class="bg-primary flex-grow-1" style="width: 2px"></div>
+                </div>
+                <div class="flex-grow-1 pb-4">
+                  <h6 class="text-primary mb-2">March 2011</h6>
+                  <h6 class="mb-2">
+                    Certificate for International Volunteer Service
+                  </h6>
+                  <p class="text-muted small mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin a ipsum tellus. Interdum et malesuada fames ac ante
+                    ipsum primis in faucibus.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Timeline Item 3 -->
+              <div class="d-flex mb-4">
+                <div
+                  class="d-flex flex-column align-items-center me-3"
+                  style="width: 20px"
+                >
+                  <div
+                    class="rounded-circle border border-2 border-primary bg-white"
+                    style="width: 14px; height: 14px; flex-shrink: 0"
+                  ></div>
+                </div>
+                <div class="flex-grow-1">
+                  <h6 class="text-primary mb-2">May 2008</h6>
+                  <h6 class="mb-2">
+                    The Dental Professional of The Year Award
+                  </h6>
+                  <p class="text-muted small mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin a ipsum tellus. Interdum et malesuada fames ac ante
+                    ipsum primis in faucibus.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Locations Tab -->
+            <div class="tab-pane fade" id="locations" role="tabpanel">
+              <div class="row gy-4">
+                <!-- loci-2-->
+                <div class="col-12 border-bottom pb-4">
+                  <div class="row g-4">
+                    <div class="col-md-6">
+                      <h5 class="fw-bold">Medlife Medical</h5>
+                      <div class="mb-2">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="ms-1">(4)</span>
+                      </div>
+                      <div class="mb-2 d-flex align-items-center">
+                        <i class="bi bi-geo-alt-fill me-2"></i>
+                        <span>96 Red Hawk Road, Cyrus, MN 56323</span>
+                      </div>
+                      <div class="mb-3">
+                        <a
+                          href="#"
+                          class="text-primary text-decoration-none d-inline-flex align-items-center"
+                        >
+                          <i class="bi bi-geo-alt me-1"></i> Get Directions
+                        </a>
+                      </div>
+                      <div class="d-flex flex-wrap gap-2">
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-01.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-02.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-03.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-04.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <h6 class="fw-bold mb-1">Mon - Sat</h6>
+                        <p class="mb-0 text-muted">10:00 AM - 2:00 PM</p>
+                        <p class="text-muted">4:00 PM - 9:00 PM</p>
+                      </div>
+                      <div>
+                        <h6 class="fw-bold mb-1">Sun</h6>
+                        <p class="text-muted">10:00 AM - 2:00 PM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- loci-2-->
+                <div class="col-12 pb-2">
+                  <div class="row g-4">
+                    <div class="col-md-6">
+                      <h5 class="fw-bold">Medlife Medical</h5>
+                      <div class="mb-2">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="ms-1">(4)</span>
+                      </div>
+                      <div class="mb-2 d-flex align-items-start">
+                        <i class="bi bi-geo-alt-fill mt-1 me-2"></i>
+                        <span>3301 Lake Drive, Alexandria, MN 56308</span>
+                      </div>
+                      <div class="mb-3">
+                        <a
+                          href="#"
+                          class="text-primary text-decoration-none d-inline-flex align-items-center"
+                        >
+                          <i class="bi bi-geo-alt me-1"></i> Get Directions
+                        </a>
+                      </div>
+                      <div class="d-flex flex-wrap gap-2">
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-04.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-01.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-02.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                        <a
+                          href="#"
+                          class="border rounded-2 overflow-hidden"
+                          style="width: 60px; height: 50px"
+                        >
+                          <img
+                            src="https://doccure.dreamstechnologies.com/html/template/assets/img/features/feature-03.jpg"
+                            alt="Facility"
+                            class="w-100 h-100 object-fit-cover"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <h6 class="fw-bold mb-1">Tue - Fri</h6>
+                        <p class="mb-0 text-muted">9:00 AM - 7:00 PM</p>
+                        <p class="text-muted">10:00 AM - 6:00 PM</p>
+                      </div>
+
+                      <div>
+                        <h6 class="fw-bold mb-1">Sat - Sun</h6>
+                        <p class="mb-0 text-muted">9:00 AM - 7:00 PM</p>
+                        <p class="text-muted">10:00 AM - 6:00 PM</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Reviews Tab-->
+            <div class="tab-pane fade" id="reviews" role="tabpanel">
+              <!-- section 1-->
+              <div class="d-flex align-items-start mb-4 pb-4">
+                <img
+                  src="https://doccure.dreamstechnologies.com/html/template/assets/img/patients/patient.jpg"
+                  class="rounded-circle me-3"
+                  alt="User"
+                  style="width: 40px; height: 40px; object-fit: cover"
+                />
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between">
+                    <h5 class="mb-0">Armando Pack</h5>
+                    <div class="d-flex align-items-center mb-2">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                  <p class="text-muted small mb-2">Reviewed 2 Days ago</p>
+                  <p class="text-primary small mb-2">
+                    <span><i class="bi bi-hand-thumbs-up pe-1"></i></span>I
+                    recommend the doctor
+                  </p>
+                  <p class="mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                  </p>
+                  <a href="#" class="text-decoration-none small"
+                    ><span><i class="bi bi-reply pe-1 hover-a"></i></span
+                    >Reply</a
+                  >
+                  <div class="d-flex justify-content-end mt-2">
+                    <span class="text-muted small me-2">Recommend?</span>
+                    <button class="btn btn-sm border hover-a me-1">Yes</button>
+                    <button class="btn btn-sm border hover-a">No</button>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="d-flex align-items-start mb-4 pb-4"
+                style="padding: 0 0 0 52px"
+              >
+                <img
+                  src="https://doccure.dreamstechnologies.com/html/template/assets/img/patients/patient.jpg"
+                  class="rounded-circle me-3"
+                  alt="User"
+                  style="width: 40px; height: 40px; object-fit: cover"
+                />
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between">
+                    <h5 class="mb-0">Armando Pack</h5>
+                    <div class="d-flex align-items-center mb-2">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                  <p class="text-muted small mb-2">Reviewed 2 Days ago</p>
+                  <p class="text-primary small mb-2">
+                    <span><i class="bi bi-hand-thumbs-up pe-1"></i></span>I
+                    recommend the doctor
+                  </p>
+                  <p class="mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                  </p>
+                  <a href="#" class="text-decoration-none small text-primary"
+                    ><span><i class="bi bi-reply pe-1"></i></span>Reply</a
+                  >
+                  <div class="d-flex justify-content-end mt-2">
+                    <span class="text-muted small me-2">Recommend?</span>
+                    <button class="btn btn-sm border hover-a me-1">Yes</button>
+                    <button class="btn btn-sm border hover-a">No</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start mb-4 pb-4">
+                <img
+                  src="https://doccure.dreamstechnologies.com/html/template/assets/img/patients/patient.jpg"
+                  class="rounded-circle me-3"
+                  alt="User"
+                  style="width: 40px; height: 40px; object-fit: cover"
+                />
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between">
+                    <h5 class="mb-0">Armando Pack</h5>
+                    <div class="d-flex align-items-center mb-2">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                  <p class="text-muted small mb-2">Reviewed 2 Days ago</p>
+                  <p class="text-primary small mb-2">
+                    <span><i class="bi bi-hand-thumbs-up pe-1"></i></span>I
+                    recommend the doctor
+                  </p>
+                  <p class="mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                  </p>
+                  <a href="#" class="text-decoration-none small"
+                    ><span><i class="bi bi-reply pe-1"></i></span>Reply</a
+                  >
+                  <div class="d-flex justify-content-end mt-2">
+                    <span class="text-muted small me-2">Recommend?</span>
+                    <button class="btn btn-sm border hover-a me-1">Yes</button>
+                    <button class="btn btn-sm border hover-a">No</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- section 2-->
+              <div class="text-center mt-4">
+                <button class="btn btn-primary rounded-5 px-4 py-2">
+                  Show all feedback (167)
+                </button>
+              </div>
+
+              <!-- form-->
+              <div class="mt-5 pt-4 border-top">
+                <h5 class="mb-2">Write a review for Medlife Medical</h5>
+                <p class="text-muted small mb-3">Review</p>
+                <div class="d-flex justify-content-end align-items-center">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill opacity-25"></i>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Title of your review</label>
+                  <input
+                    type="text"
+                    class="form-control rounded-3"
+                    placeholder="If you could say it in one sentence, what would you say?"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Your review</label>
+                  <textarea
+                    class="form-control rounded-3"
+                    rows="4"
+                    placeholder="Write your review here..."
+                    style="resize: none"
+                  ></textarea>
+                  <small class="text-muted d-block mt-1"
+                    >100 characters remaining</small
+                  >
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="terms"
+                    required
+                  />
+                  <label class="form-check-label" for="terms">
+                    I have read and accept
+                    <a href="#" class="text-decoration-none"
+                      >Terms & Conditions</a
+                    >
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary rounded-5 px-4 py-2"
+                >
+                  Add Review
+                </button>
+              </div>
+            </div>
+
+            <!-- Hours Tab -->
+            <div class="tab-pane fade" id="hours" role="tabpanel">
+              <div
+                class="d-flex justify-content-center align-items-center border-bottom mb-3"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center col-7"
+                >
+                  <div>
+                    <h6>Today</h6>
+                    <p>5 Nov 2023</p>
+                  </div>
+                  <div>
+                    <h6>Open Now</h6>
+                    <p>07:00 AM - 09:00 PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="list-unstyled d-flex justify-content-center align-items-center pb-5"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center col-7"
+                >
+                  <div>
+                    <p>Monday</p>
+                    <p>Tuesday</p>
+                    <p>Wednesday</p>
+                    <p>Thursday</p>
+                    <p>Friday</p>
+                    <p>Saturday</p>
+                    <p>Sunday</p>
+                  </div>
+                  <div class="p-0 px-0 mx-0 my-0">
+                    <p>07:00 AM - 09:00 PM</p>
+                    <p>07:00 AM - 09:00 PM</p>
+                    <p>07:00 AM - 09:00 PM</p>
+                    <p>07:00 AM - 09:00 PM</p>
+                    <p>07:00 AM - 09:00 PM</p>
+                    <p>07:00 AM - 09:00 PM</p>
+                    <p
+                      class="text-danger bg-danger-light rounded-2"
+                      style="text-align: center"
+                    >
+                      Closed
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer bg-light mt-5 text-primary">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-2 col-md-6 footer-section ">
+        <h5>Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="./contact us.html">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 footer-section">
+        <h5>Support</h5>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 footer-section">
+        <h5>Support</h5>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 footer-section">
+        <h5>Support</h5>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 footer-section">
+        <h5>Newsletter</h5>
+        <p class="footer-about">Subscribe to our newsletter for updates, news, and exclusive offers.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="footer-newsletter">
+          <input type="email" placeholder="Enter your email">
+          <button class="newsletter-btn rounded-pill w-25">
+            <i class="fas fa-paper-plane"></i>
+            Send
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom d-flex align-middle">
+      <ul class="footer-bottom-links col-lg-4">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+      </ul>
+      <p class="col-lg-4 p-3">© 2024 CompanyName. All rights reserved.</p>
+      <div class="payment d-flex col-lg-4 text-end">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_22_card-01.svg" alt="">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_23_card-02.svg" alt="">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_26_card-05.svg" alt="">
+        <img style="width:3rem ;" class="mx-2" src="./images/imgi_27_card-06.svg" alt="">
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+
+
+    <script src="fonts/js/all.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./OwlCarousel/jquery.js"></script>
+    <script src="./OwlCarousel/owl-carousel.js"></script>
+    <script src="./OwlCarousel/owl-carosel-min.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
